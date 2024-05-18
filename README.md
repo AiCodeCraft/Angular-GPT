@@ -85,9 +85,6 @@ To run this project locally, follow these steps:
         └── angular.json
 
 
-## Contributing
-
-Contributions are welcome! Please read the [contribution guidelines](CONTRIBUTING.md) first.
 
 ## License
 
