@@ -81,7 +81,6 @@ To run this project locally, follow these steps:
         │
         ├── README.md
         ├── package.json
-        └── angular.json
 
 
 
