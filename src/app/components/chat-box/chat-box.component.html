@@ -1,0 +1,12 @@
+<div class="chat-box">
+  <div class="message-list">
+    <div class="message" *ngFor="let message of messages" [ngClass]="{'user-message': message.sender === 'user', 'assistant-message': message.sender === 'assistant'}">
+      <span class="sender">{{ message.sender }}:</span>
+      <span class="text">{{ message.text }}</span>
+    </div>
+  </div>
+  <div class="input-area">
+    <input type="text" placeholder="Schreiben Sie eine Nachricht..." [(ngModel)]="inputMessage">
+    <button (click)="sendMessage()">Senden</button>
+  </div>
+</div>

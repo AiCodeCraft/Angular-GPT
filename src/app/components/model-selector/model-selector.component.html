@@ -1,0 +1,11 @@
+
+<div class="model-selector">
+  <h2>Modell auswählen</h2>
+  <div class="form-group">
+    <label for="model">Modell:</label>
+    <select id="model" [(ngModel)]="selectedModel">
+      <option *ngFor="let model of availableModels" [value]="model.id">{{ model.name }}</option>
+    </select>
+  </div>
+  <button (click)="useSelectedModel()">Modell verwenden</button>
+</div>
