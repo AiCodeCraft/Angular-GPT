@@ -21,21 +21,21 @@ Angular-GPT is a minimal Angular application designed to interact with GPT-based
 To run this project locally, follow these steps:
 
 1. **Clone the repository:**
-    \`\`\`bash
-    git clone https://github.com/yourusername/Angular-GPT.git
-    cd Angular-GPT
-    \`\`\`
+
+        git clone https://github.com/yourusername/Angular-GPT.git
+        cd Angular-GPT
+
 
 2. **Install the dependencies:**
-    \`\`\`bash
-    npm install
-    \`\`\`
+
+        npm install
+
 
 3. **Run the application:**
-    \`\`\`bash
-    ng serve
-    \`\`\`
-    Navigate to \`http://localhost:4200/\` in your web browser to see the application in action.
+
+        ng serve
+   
+ Navigate to \`http://localhost:4200/\` in your web browser to see the application in action.
 
 ## Usage
 
@@ -50,40 +50,40 @@ To run this project locally, follow these steps:
 
 ## Project Structure
 
-\`\`\`
-Angular-GPT/
-│
-├── .github/
-│   └── FUNDING.yml
-│
-├── src/
-│   ├── app/
-│   │   ├── components/
-│   │   │   ├── api-settings/
-│   │   │   │   ├── api-settings.component.css
-│   │   │   │   ├── api-settings.component.html
-│   │   │   │   └── api-settings.component.ts
-│   │   │   ├── chat-box/
-│   │   │   │   ├── chat-box.component.css
-│   │   │   │   ├── chat-box.component.html
-│   │   │   │   └── chat-box.component.ts
-│   │   │   ├── model-selector/
-│   │   │   │   ├── model-selector.component.css
-│   │   │   │   ├── model-selector.component.html
-│   │   │   │   └── model-selector.component.ts
-│   │   ├── services/
-│   │   │   ├── api.service.ts
-│   │   │   └── chat.service.ts
-│   │   ├── app.component.css
-│   │   ├── app.component.html
-│   │   ├── app.component.ts
-│   │   └── app.module.ts
-│   └── assets/
-│
-├── README.md
-├── package.json
-└── angular.json
-\`\`\`
+
+        Angular-GPT/
+        │
+        ├── .github/
+        │   └── FUNDING.yml
+        │
+        ├── src/
+        │   ├── app/
+        │   │   ├── components/
+        │   │   │   ├── api-settings/
+        │   │   │   │   ├── api-settings.component.css
+        │   │   │   │   ├── api-settings.component.html
+        │   │   │   │   └── api-settings.component.ts
+        │   │   │   ├── chat-box/
+        │   │   │   │   ├── chat-box.component.css
+        │   │   │   │   ├── chat-box.component.html
+        │   │   │   │   └── chat-box.component.ts
+        │   │   │   ├── model-selector/
+        │   │   │   │   ├── model-selector.component.css
+        │   │   │   │   ├── model-selector.component.html
+        │   │   │   │   └── model-selector.component.ts
+        │   │   ├── services/
+        │   │   │   ├── api.service.ts
+        │   │   │   └── chat.service.ts
+        │   │   ├── app.component.css
+        │   │   ├── app.component.html
+        │   │   ├── app.component.ts
+        │   │   └── app.module.ts
+        │   └── assets/
+        │
+        ├── README.md
+        ├── package.json
+        └── angular.json
+
 
 ## Contributing
 
