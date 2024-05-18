@@ -8,7 +8,6 @@ Angular-GPT is a minimal Angular application designed to interact with GPT-based
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Contributing](#contributing)
 - [License](#license)
 
 ## Features
