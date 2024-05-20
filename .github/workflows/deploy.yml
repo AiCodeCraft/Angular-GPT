@@ -14,19 +14,15 @@ jobs:
 
     steps:
       - name: Checkout code
-        uses: actions/checkout@v2
+        uses: actions/checkout@v3
 
       - name: Set up Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: '14'
 
       - name: Install dependencies
         run: npm install
-
-      # Überspringen des Test-Schritts
-      # - name: Run tests
-      #   run: npm test
 
       - name: Build project
         run: npm run build -- --configuration production --base-href "/Angular-GPT/"
