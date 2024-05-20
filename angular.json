@@ -1,0 +1,13 @@
+{
+  "projects": {
+    "Angular-GPT": {
+      "architect": {
+        "build": {
+          "options": {
+            "outputPath": "dist/Angular-GPT"
+          }
+        }
+      }
+    }
+  }
+}
