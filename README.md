@@ -87,6 +87,5 @@ To run this project locally, follow these steps:
 
 ## Creator
 - [Volkan Sah](https://github.com/volkansah)
-- 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
