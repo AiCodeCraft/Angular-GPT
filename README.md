@@ -86,7 +86,5 @@ To run this project locally, follow these steps:
 
 
 
-## Creator
-Boris T. (14 Years old)
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
