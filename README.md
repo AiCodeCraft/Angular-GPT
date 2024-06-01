@@ -1,7 +1,7 @@
-
 # Angular-GPT
 
-Angular-GPT is a minimal Angular application designed to interact with GPT-based models. This application provides a simple interface to configure API settings, select models, and interact with the GPT models through a chat interface.
+Angular-GPT is a minimal Angular application designed to interact with GPT-based models. This application provides a simple interface to configure API settings, select models, and interact with the GPT models through a chat interface. It is only a test application and is intended to demonstrate functionality; it is not meant for production use.
+
 
 ## Table of Contents
 - [Features](#features)
